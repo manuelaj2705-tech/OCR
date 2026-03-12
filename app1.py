@@ -7,8 +7,12 @@ from PIL import Image
 st.set_page_config(page_title="OCR Scanner", page_icon="📷", layout="wide")
 
 st.title("Detecta Texto con tu Cámara (OCR) 📸🔎")
-st.write("Captura una imagen y permite que el sistema identifique automáticamente el texto que aparece en ella. Gracias al reconocimiento óptico de caracteres (OCR),
-podrás convertir palabras impresas o escritas en texto digital de forma rápida y sencilla. Solo toma una foto y el sistema se encargará del resto.")
+
+st.write("""
+Captura una imagen y permite que el sistema identifique automáticamente el texto que aparece en ella. 
+Gracias al reconocimiento óptico de caracteres (OCR), podrás convertir palabras impresas o escritas 
+en texto digital de forma rápida y sencilla. Solo toma una foto y el sistema se encargará del resto.
+""")
 
 img_file_buffer = st.camera_input("📸 Toma una foto")
 
