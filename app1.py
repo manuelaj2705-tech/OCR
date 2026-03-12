@@ -17,7 +17,7 @@ en texto digital de forma rápida y sencilla. Solo toma una foto y el sistema se
 img_file_buffer = st.camera_input("📸 Toma una foto")
 
 with st.sidebar:
-    st.header("Configuración")
+    st.header("Deseas aplicar")
     filtro = st.radio("Aplicar Filtro", ('Con Filtro', 'Sin Filtro'))
 
 if img_file_buffer is not None:
